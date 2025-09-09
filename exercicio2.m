@@ -33,6 +33,7 @@ lb = [0; 0];
 x = linprog(f,A,b,Aeq,beq,lb,ub);
 x = x';
 
+
 % mantenha essas duas linhas finais
 blendA = x(1);
 blendB = x(2);
